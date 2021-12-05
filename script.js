@@ -11,6 +11,11 @@ do {
 }
 while (isNaN(kaina) || kaina <=0)
 
+if(2 > 3 || 3 < 5) {
+    //kodas su veiks jeigu dešinėje arba kairėje pusėje bus įvykdyta sąlyga, bent viena sąlyga turi būti teisinga, kad veiktų šis kodas
+{
+
+
 let mokestis = kaina * pvm;
 let bendraKaina = kaina + mokestis;
 
